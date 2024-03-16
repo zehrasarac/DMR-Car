@@ -1,0 +1,72 @@
+@media screen and (min-width: 1024px) {
+    .hero-section .hero-content{
+        margin-left: 120px;
+    }
+}
+
+.hero-section {
+    background-image: url('/assets/img/body.jpeg');
+    max-width: 100%;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-section h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    padding: 10rem;
+    text-shadow: 10px 10px 20px black;
+}
+
+.hero-section h2{
+    line-height: 22.59px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-section .container{
+    position: relative;
+}
+
+
+.main .cards{
+    background-color: rgba(213, 84, 84, 1);
+    width: 306px;
+    height: 75px;
+    border-radius: 14px 14px 0px 0px;
+    border: 1px;
+    display: inline-block;
+}
+
+.main-white .cards{
+    background-color:rgba(255, 255, 255, 1);
+    width: 306px;
+    height: 110px;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px;   
+    display: inline-block;
+    border: 1px solid rgba(213, 84, 84, 1);
+}
+
+.title-card{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+
+.main-white p{
+    color:rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 16px;
+}
+
+.text-card{
+    display: flex;
+    justify-content: flex-end;
+
+}
+

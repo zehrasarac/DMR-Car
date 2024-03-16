@@ -19,14 +19,6 @@ header{
     rgba(245, 250, 253, 1);
 }
 
-body{
-    background-image: url("/assets/img/body.jpeg");
-    height: auto; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 button{
     border: none;
 }
