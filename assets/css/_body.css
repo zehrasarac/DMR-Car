@@ -1,0 +1,388 @@
+
+.main-white .cards{
+    background-color:rgba(255, 255, 255, 1);
+    width: 306px;
+    height: 110px;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px;   
+    display: inline-block;
+    border: 1px solid rgba(213, 84, 84, 1);
+}
+
+.main-white p{
+    color:rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 16px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,15rem);
+    gap: 2rem;
+    padding: 3rem 0;
+    
+}
+
+.gallery-container{
+    padding: 2rem 0;
+}
+
+.img1{
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+}
+
+.img2{
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+}
+
+
+.img3{
+    grid-column: 2/span 2;
+    grid-row: 1/span 2;
+}
+
+
+.img4{
+    grid-column: 4/span 2;
+    grid-row: 1/span 1;
+}
+
+.img5{
+    grid-column: span 3/span 0.5;
+    grid-row: 2/span 1;
+}
+
+.img6{
+    grid-column: 4/span 1;
+    grid-row: 2/span 1;
+}
+
+.gallery-link{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery .item img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 15px;
+}
+
+.airport-cards img{
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    padding: 2rem 0;
+}
+
+.rectangle{
+    position: relative;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(223, 228, 230, 1);
+    padding: 20px;
+    width: 306px;
+    height: 60px;
+    margin: 10px 9px;
+    align-content: center;
+}
+
+.rectangle h2{
+    font-size: 16px;
+}
+.rectangle p{
+    font-size: 14px;
+}
+
+.airport-cards-button{
+    position: relative;
+    border-radius: 14px;
+    background: rgba(84, 84, 84, 1);
+    border: 1px solid rgba(223, 228, 230, 1);
+    width: 306px;
+    height: 60px;
+    margin: 10px 9px;
+}
+
+.trend-travel-button{
+    background-image: url("/assets/img/trend-travel.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 306px;
+    height: 312px;
+    border-radius: 14px;
+    margin: 10px 9px;
+    position: relative;
+}
+
+.comments{
+    margin-top: 30px;
+}
+
+.comments-card{
+    width: 347px;
+    height: 250px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    display: grid;
+    justify-content: center;
+    gap: 4px;
+    align-content: center;
+    grid-auto-flow: column;
+    margin-bottom: 20px;
+}
+
+.comments-card-center{
+    width: 347px;
+    height: 250px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 140px;
+}
+
+.card-avatar{
+    --size: 60px;
+    background: url("/assets/img/avatar1.jpeg");
+    width: var(--size);
+    height: var(--size);
+    border-radius: 100%;
+    position: relative;
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    margin-bottom: 1rem;
+    border: 2px solid rgba(223, 228, 230, 1);
+    
+}
+
+
+.card-title{
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+}
+
+.card-subtitle{
+font-size: 12px;
+color: rgba(84, 84, 84, 1);
+}
+
+.review{
+    width: 263px;
+    height: 54px;
+    top: 301px;
+    font-size: 14px;
+    line-height: 17.57px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.rental-notes{
+ margin: 10px;
+}
+
+.rental-notes1{
+    width: 636px;
+    height: 676px;
+    padding: 24px;
+    gap: 10px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+   
+}
+
+.rentacar-content{
+    width: 588px;
+    height: 628px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.rentacar-content h1{
+    font-size: 24px;
+}
+.rentacar-content li{
+    font-size: 14px;
+    text-indent: 8px;
+}
+
+.rentacar-notes2{
+    width: 600px;
+    height: 377px;
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.rentacar-notes3{
+    width: 600px;
+    height: 275px;
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    
+}
+
+.tips-buttons{
+    margin-top: 20px;
+}
+
+.tips-button-1{
+    background: url('/assets/img/tips1.jpeg');
+    background-position-x: 80%;
+    background-position-y: 80%;
+    width: 306px;
+    height: 368px;
+    border-radius: 14px;
+    position: relative;
+}
+
+.tips-button-2{
+    background-image:url('/assets/img/tips2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 306px;
+    height: 368px;
+    border-radius: 14px;
+    position: relative;
+}
+.tips-button-3{
+    background-image:url('/assets/img/tips3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 306px;
+    height: 368px;
+    border-radius: 14px;
+    position: relative;
+}
+
+.question{
+    width: 850px;
+    height: 68px;
+    border-radius: 14px;
+    justify-content: space-between;
+    background:rgba(255, 255, 255, 1);
+    border: 1px solid rgba(223, 228, 230, 1);
+    padding:5px 0;
+    margin: 10px 10px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5 ease-in;
+}
+.question span{
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+.question.active{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+}
+
+.questions-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.questions-answers{
+    display: none; 
+}
+
+.question.active .questions-answers{
+    margin-bottom: 20px;
+    display: block;
+}
+
+i{
+    position: absolute;
+    bottom: 20px;
+    right: 2%;
+}
+
+
+.tips-text-button{
+    width: 306px;
+    height: 94px;
+    border-radius: 0px, 0px, 14px, 14px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: rgba(0, 0, 0, 1);
+    align-content: center;
+    margin: 275px 0px;
+}
+
+.download-card{
+    width: 350px;
+    height: 483px;
+    background-color: rgba(223, 228, 230, 1);
+    border-radius: 14px;
+    border: 1px solid rgba(223, 228, 230, 1)
+}
+
+
+@media (max-width: 1200px){
+    .gallery{
+        width: calc(100% - 40px);
+        columns: 3;
+    }
+    .main-white{
+        width: calc(100%-40px);
+        columns: 4;
+    }
+}
+
+@media (max-width: 760px){
+    .gallery{
+        columns: 3;
+    }
+    .main-white{
+        width: calc(100%-40px);
+        columns: 4;
+    }
+    .airport-cards{
+        width: calc(100%-40px);
+        columns: 3;
+    }
+}
+
+@media (max-width: 480px){
+    .gallery{
+        columns: 2;
+    }
+    .main-white{
+       display: none;
+    }
+    .main-red{
+        display: none;
+    }
+    .airport-cards{
+        width: calc(100%-30px);
+        columns: 2;
+    }
+    .tips-buttons{
+        width: calc(100%-30px);
+        columns: 2;
+    }
+}
+
+

@@ -20,3 +20,43 @@
 .white-button{
     background-color: rgb(255, 255, 255);
 }
+
+.grey-button{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    text-align: center;
+    left: 12px;
+    position: absolute;
+    padding: 1em;
+    gap: 10px;
+    bottom: 6px;
+}
+
+.trend-button{
+    position: absolute;
+    border-radius: 14px;
+    width: 278px;
+    height: 40px;
+    gap: 10px;
+    background: rgba(84, 84, 84, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 0.5em;
+    bottom: 8px;
+    left: 12px;
+    text-align: center;
+}
+
+.tips-button{
+    position: relative;
+    width: 306px;
+    height: 68px;
+    border-radius: 14px;
+    gap: 10px;
+    background: rgba(84, 84, 84, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 1.5em;
+    margin: 10px 9px;
+    font-size: 16px;
+    text-align: center;
+    margin: 150px 0px;
+}
