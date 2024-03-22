@@ -60,3 +60,61 @@
     text-align: center;
     margin: 150px 0px;
 }
+
+.tips-text-button{
+    width: 306px;
+    height: 94px;
+    border-radius: 0px, 0px, 14px, 14px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: rgba(0, 0, 0, 1);
+    align-content: center;
+    margin: 275px 0px;
+}
+
+.all-questions-button{
+    position: relative;
+    width: 306px;
+    height: 68px;
+    background-color: #545454;
+    color: #FFFFFF;
+    border-radius: 14px;
+    gap: 10px;
+    padding: 24px;
+    font-size: 16px;
+    text-align: center;
+    float: right;
+    padding:24px;
+}
+
+.download-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.download-button{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    width: 176px;
+    height: 52px;
+    border-radius: 14px;
+    color: white;
+    position:relative;
+    justify-content: space-between;
+}
+
+.download-button:first-child{
+    background: #000000;
+
+}
+
+.download-button:last-child{
+    background-color: #488aec;
+}

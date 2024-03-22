@@ -271,6 +271,15 @@ color: rgba(84, 84, 84, 1);
     position: relative;
 }
 
+.curious-things{
+    padding-top: 15px;
+    
+}
+
+.curious-questions{
+    margin-top: 20px;
+}
+
 .question{
     width: 850px;
     height: 68px;
@@ -278,8 +287,8 @@ color: rgba(84, 84, 84, 1);
     justify-content: space-between;
     background:rgba(255, 255, 255, 1);
     border: 1px solid rgba(223, 228, 230, 1);
-    padding:5px 0;
-    margin: 10px 10px;
+    padding:24px;
+    margin: 10px 0;
     position: relative;
     overflow: hidden;
     transition: all 0.5 ease-in;
@@ -317,26 +326,71 @@ i{
 }
 
 
-.tips-text-button{
-    width: 306px;
-    height: 94px;
-    border-radius: 0px, 0px, 14px, 14px;
-    padding: 24px;
-    background: rgba(255, 255, 255, 0.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    color: rgba(0, 0, 0, 1);
-    align-content: center;
-    margin: 275px 0px;
-}
-
 .download-card{
-    width: 350px;
-    height: 483px;
+    width: 414px;
+    height: 470px;
     background-color: rgba(223, 228, 230, 1);
     border-radius: 14px;
-    border: 1px solid rgba(223, 228, 230, 1)
+    border: 1px solid rgba(223, 228, 230, 1);
+    margin: 10px 0;
+}
+
+.mobil-app-comment{
+    padding: 24px;
+    gap: 10px;
+    width: 414px;
+    height: 250px;
+    text-align: center;
+    
+}
+
+.mobil-app-comment h2{
+    line-height: 30.12px;
+    font-size: 24px;
+    gap: 10;
+   padding: 24px;
+}
+
+.mobil-app-comment p{
+    width: 364px;
+    height: 108px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    font-weight: 600px;
+    margin: 10px 0 30px;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.button-text span:first-child {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.apple span:last-child {
+    font-weight: 800;
+}
+
+.google span:last-child {
+    font-weight: 800;
+}
+
+.homepage-break-line{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 17.57px;
+    font-weight: 300;
+    margin: 10px 0 10px;
+}
+.homepage-break-line-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.59px;
 }
 
 
