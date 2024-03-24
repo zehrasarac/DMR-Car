@@ -118,3 +118,17 @@
 .download-button:last-child{
     background-color: #488aec;
 }
+
+.footer-button a{
+    border-radius: 50px;
+    background-color: rgba(193, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    padding: 8px 21px 8px 21px;
+    max-width: 200px;
+    height: 34px;
+    gap: 10px;
+    margin: 10px;
+    font-weight: 600;
+    line-height: 17.57px;
+}
